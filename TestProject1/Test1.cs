@@ -31,16 +31,10 @@ namespace TestProject1
 
             Assert.AreEqual(expectedResult, actualResult);
         }
+        [TestMethod]
         public void TestMethod4()
         {
             int actualResult = _calculator.Add(6, 1);
-            int expectedResult = 7;
-
-            Assert.AreEqual(expectedResult, actualResult);
-        }
-        public void TestMethod5()
-        {
-            int actualResult = _calculator.Add(6, 7);
             int expectedResult = 7;
 
             Assert.AreEqual(expectedResult, actualResult);
