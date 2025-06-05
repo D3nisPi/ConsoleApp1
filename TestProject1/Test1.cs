@@ -23,5 +23,13 @@ namespace TestProject1
 
             Assert.AreEqual(expectedResult, actualResult);
         }
+        [TestMethod]
+        public void TestMethod3()
+        {
+            int actualResult = _calculator.Add(5, 5);
+            int expectedResult = 9;
+
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
