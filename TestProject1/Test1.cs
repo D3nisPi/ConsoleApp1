@@ -27,7 +27,7 @@ namespace TestProject1
         public void TestMethod3()
         {
             int actualResult = _calculator.Add(5, 5);
-            int expectedResult = 9;
+            int expectedResult = 10;
 
             Assert.AreEqual(expectedResult, actualResult);
         }
